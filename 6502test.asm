@@ -1,3 +1,5 @@
+;copy code and put in any box @ https://skilldrick.github.io/easy6502/
+
 main:
   LDX #$00      ; pixel color value
   LDY #$00      ; pixel location on the current line
