@@ -1,3 +1,9 @@
+;checkerboard drawing algorithm?
+;idk.
+;could be a lot cleaner
+;or extended to use 
+;JSR and RTS
+
 main:
   LDX #$00      ; pixel color value
   LDY #$00      ; pixel location on the current line
