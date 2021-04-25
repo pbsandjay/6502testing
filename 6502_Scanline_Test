@@ -11,6 +11,9 @@
 ;for the nes,
 ;it can only refresh graphics
 ;during vblanking
+;tinyurl.com/vblank
+;obviously you would use
+;NMI or IRQ
 
 main:
   LDX #$00      ; pixel color value
