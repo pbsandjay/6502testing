@@ -1,4 +1,5 @@
-;copy code and put in any box @ https://skilldrick.github.io/easy6502/
+;copy code and put in any box @ ;https://skilldrick.github.io/easy6502/
+;just a simple draw ;color bars to the screen
 
 main:
   LDX #$00      ; pixel color value
