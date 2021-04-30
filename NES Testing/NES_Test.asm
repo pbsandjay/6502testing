@@ -8,9 +8,6 @@
 	db 0				;Ram pages
 	db 0,0,0,0,0,0,0
 						;We selected Mapper 4 - it has 8k VRAM , 8K Sram and 128k rom
-z_Regs 		equ $60
-Cursor_X 	equ $40
-Cursor_Y 	equ Cursor_X+1
 SpPage 		equ $0100	
 UserRam 	equ $200
 vblanked 	equ $7F		;Zero page address of Vblank count
